@@ -3,8 +3,8 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - darin',
-    title: 'darin',
+    titleTemplate: '',
+    title: 'Darin',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -12,7 +12,33 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'assets/css/bootstrap.min.css' },
+      { rel: 'stylesheet', href: 'assets/css/owl.theme.default.min.css' },
+      { rel: 'stylesheet', href: 'assets/css/owl.carousel.min.css' },
+      { rel: 'stylesheet', href: 'assets/css/remixicon.css' },
+      { rel: 'stylesheet', href: 'assets/css/flaticon.css' },
+      { rel: 'stylesheet', href: 'assets/css/meanmenu.min.css' },
+      { rel: 'stylesheet', href: 'assets/css/animate.min.css' },
+      { rel: 'stylesheet', href: 'assets/css/magnific-popup.min.css' },
+      { rel: 'stylesheet', href: 'assets/css/odometer.min.css' },
+      { rel: 'stylesheet', href: 'assets/css/style.css' },
+      { rel: 'stylesheet', href: 'assets/css/responsive.css' }
+    ],
+    script: [
+      { src: "assets/js/jquery.min.js" },
+      { src: "assets/js/bootstrap.bundle.min.js" },
+      { src: "assets/js/meanmenu.min.js" },
+      { src: "assets/js/owl.carousel.min.js" },
+      { src: "assets/js/wow.min.js" },
+      { src: "assets/js/magnific-popup.min.js" },
+      { src: "assets/js/appear.min.js" },
+      { src: "assets/js/odometer.min.js" },
+      { src: "assets/js/form-validator.min.js" },
+      { src: "assets/js/contact-form-script.js" },
+      { src: "assets/js/ajaxchimp.min.js" },
+      { src: "assets/js/custom.js", defer:true },
+      
     ]
   },
 
@@ -30,7 +56,7 @@ export default {
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
     // https://go.nuxtjs.dev/vuetify
-    '@nuxtjs/vuetify',
+    ['@nuxtjs/vuetify', { rtl: false }],
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -55,7 +81,7 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
