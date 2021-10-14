@@ -222,15 +222,6 @@
 		});
 	});
 
-	// Odometer JS
-	$('.odometer').appear(function(e) {
-		var odo = $(".odometer");
-		odo.each(function() {
-			var countNumber = $(this).attr("data-count");
-			$(this).html(countNumber);
-		});
-	});
-
 	// Search Popup JS
 	$('.close-btn').on('click', function() {
 		$('.search-overlay').fadeOut();
@@ -246,6 +237,7 @@
 })(jQuery);
 
 document.addEventListener('DOMContentLoaded', function() {
+	
 	// Partner Slider JS
 	$('.partner-slider').owlCarousel({
 		loop: true,
@@ -287,6 +279,15 @@ document.addEventListener('DOMContentLoaded', function() {
 		$('.accordion-content').not($(this).next()).slideUp('fast');
 		// Removes Active Class From Other Titles
 		$('.accordion-title').not($(this)).removeClass('active');		
+	});
+
+	// Odometer JS
+	$('.odometer').appear(function(e) {
+		var odo = $(".odometer");
+		odo.each(function() {
+			var countNumber = $(this).attr("data-count");
+			$(this).html(countNumber);
+		});
 	});
 })
 
