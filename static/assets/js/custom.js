@@ -1,10 +1,7 @@
 (function($) {
 
 	'use strict';
-	// Mean Menu
-	$('.mean-menu').meanmenu({
-		meanScreenWidth: "991"
-	});
+	
 	
 	// Header Sticky, Go To Top JS
 	$(window).on('scroll', function() {
@@ -288,6 +285,11 @@ document.addEventListener('DOMContentLoaded', function() {
 			var countNumber = $(this).attr("data-count");
 			$(this).html(countNumber);
 		});
+	});
+
+	// Mean Menu
+	$('.mean-menu').meanmenu({
+		meanScreenWidth: "991"
 	});
 })
 

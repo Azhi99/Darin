@@ -42,7 +42,7 @@
 						<h3 id="header-text2">Authorized Razer Distributor</h3>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="image">
+						<div class="image" style="margin-left: 100px;">
 							<img src="assets/images/game.svg" alt="">
 						</div>
 					</div>
@@ -90,6 +90,7 @@
 		mounted() {
 			$('.preloader').addClass('preloader-deactivate');
 			this.$i18n.locale = localStorage.getItem('darinLang') || 'en';
+			
 		}
 	}
 </script>
@@ -112,6 +113,9 @@
 			padding:1rem;
 			padding-top: 1rem;
 			animation:float 3s linear infinite;
+		}
+		.home .image {
+			margin-left: 0 !important;
 		}
 		#header-part {
 			margin-top: 10px !important;

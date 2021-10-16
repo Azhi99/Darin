@@ -1352,7 +1352,8 @@ Banner Area Style
 }
 
 .banner-area.banner-area-style-two {
-  background-image: url(../../assets/images/banner/mainlogo.jpg);
+  /* background-image: url(../../assets/images/banner/mainlogo.jpg); */
+  background-image: url(../../assets/images/banner/darin.png);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;

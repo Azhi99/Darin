@@ -30,7 +30,7 @@ export default {
     script: [
       { src: "assets/js/jquery.min.js" },
       { src: "assets/js/bootstrap.bundle.min.js" },
-      { src: "assets/js/meanmenu.min.js" },
+      { src: "assets/js/meanmenu.min.js", defer: true },
       { src: "assets/js/owl.carousel.min.js" },
       { src: "assets/js/wow.min.js" },
       { src: "assets/js/magnific-popup.min.js" },
@@ -111,5 +111,9 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+    extend(config, ctx) {}
+  },
+  server: {
+    host: '0.0.0.0'
   }
 }

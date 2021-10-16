@@ -82,40 +82,40 @@
                     </a>
 
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a :href="localePath('index')" class="nav-link" :class="{'active': $route.fullPath == '/'}">
-                                Home 
-                            </a>
-                        </li>
-                        
-                        <li class="nav-item">
-                            <a href="/about" class="nav-link" :class="{'active': $route.fullPath == '/about'}">About</a>
-                        </li>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a href="/" class="nav-link" :class="{'active': $route.fullPath == '/'}">
+                                    Home 
+                                </a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a href="/about" class="nav-link" :class="{'active': $route.fullPath == '/about'}">About</a>
+                            </li>
 
-                        <li class="nav-item">
-                            <a href="/contact" class="nav-link" :class="{'active': $route.fullPath == '/contact'}">Contact</a>
-                        </li>
-                    </ul>
-
-                    <div class="others-options">
-                        <ul>
-                        <li>
-                            <a href="tel:+9647503079718" class="default-btn" style="color: white !important;">
-                            <span>
-                                +964(0) 750 307 9718
-                                <i class="ri-phone-fill"></i>
-                            </span>
-                            </a>
-                        </li>
+                            <li class="nav-item">
+                                <a href="/contact" class="nav-link" :class="{'active': $route.fullPath == '/contact'}">Contact</a>
+                            </li>
                         </ul>
-                    </div>
+
+                        <div class="others-options">
+                            <ul>
+                            <li>
+                                <a href="tel:+9647503079718" class="default-btn" style="color: white !important;">
+                                <span>
+                                    +964(0) 750 307 9718
+                                    <i class="ri-phone-fill"></i>
+                                </span>
+                                </a>
+                            </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>
         </div>
             
-            <div class="others-option-for-responsive">
+            <!-- <div class="others-option-for-responsive">
                 <div class="container">
                     <div class="dot-menu">
                         <div class="inner">
@@ -142,7 +142,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- End Navbar Area -->
     </header>
