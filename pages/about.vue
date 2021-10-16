@@ -16,7 +16,7 @@
 		<div class="page-title-area" style="padding-top: 220px;">
 			<div class="container">
 				<div class="page-title-content">
-					<h2>About</h2>
+					<h2> {{ $t('about') }} </h2>
 
 					
 				</div>

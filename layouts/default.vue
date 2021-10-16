@@ -6,6 +6,9 @@
 
 <script>
 export default {
+  head() {
+    return this.$nuxtI18nHead()
+  },
   data () {
     return {
       clipped: false,

@@ -1,4 +1,6 @@
 import colors from 'vuetify/es5/util/colors'
+import en from './locales/en.json'
+import ku from './locales/ku.json'
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -48,6 +50,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: '~/plugins/lang.js' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -65,7 +68,17 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+    '@nuxtjs/i18n'
   ],
+  i18n: {
+    locales: [
+      { code: 'en', file: 'en.json' },
+      { code: 'ku', file: 'ku.json' }
+    ],
+    defaultLocale: 'en',
+    langDir: 'locales/'
+  },
+
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},

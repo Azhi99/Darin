@@ -48,10 +48,9 @@
 
                             <div class="languages-switcher">
                                 <i class="ri-global-line"></i>
-                                <select>
-                                    <option value="1">English</option>	
-                                    <option value="2">کوردی</option>
-                                    
+                                <select v-model="lang">
+                                    <option value="ku">کوردی</option>
+                                    <option value="en">English</option>	
                                 </select>
                             </div>
                         </div>
@@ -78,24 +77,24 @@
         <div class="desktop-nav">
             <div class="container-fluid pt-0">
                 <nav class="navbar navbar-expand-md navbar-light">
-                    <NuxtLink class="navbar-brand py-1" to="/" style="width: 100%;">
+                    <a class="navbar-brand py-1" href="/" style="width: 100%;">
                         <img src="logo darin.png" alt="logo" width="20%;">
-                    </NuxtLink>
+                    </a>
 
                     <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <NuxtLink to="/" class="nav-link" :class="{'active': $route.fullPath == '/'}">
+                            <a :href="localePath('index')" class="nav-link" :class="{'active': $route.fullPath == '/'}">
                                 Home 
-                            </NuxtLink>
+                            </a>
                         </li>
                         
                         <li class="nav-item">
-                            <NuxtLink to="/about" class="nav-link" :class="{'active': $route.fullPath == '/about'}">About</NuxtLink>
+                            <a href="/about" class="nav-link" :class="{'active': $route.fullPath == '/about'}">About</a>
                         </li>
 
                         <li class="nav-item">
-                            <NuxtLink to="/contact" class="nav-link" :class="{'active': $route.fullPath == '/contact'}">Contact</NuxtLink>
+                            <a href="/contact" class="nav-link" :class="{'active': $route.fullPath == '/contact'}">Contact</a>
                         </li>
                     </ul>
 
@@ -148,3 +147,18 @@
         <!-- End Navbar Area -->
     </header>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            lang: 'ku'
+        }
+    },
+    watch: {
+        lang() {
+            this.$i18n.locale = this.lang
+        }
+    }
+}
+</script>

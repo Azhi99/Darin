@@ -8,7 +8,7 @@
                             <img src="logo darin.png" alt="Image" width="25%;">
                         </NuxtLink>
 
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p> 
+                        <p>The Best and First Gaming Brand in Kurdistan <br> Authorized Razer Distributor</p> 
 
                         <ul class="social-icon">
                             <li>
@@ -32,11 +32,11 @@
                         <ul class="address">
                             <li>
                                 <span><i class="ri-map-pin-fill"></i> Address:</span>
-                                2976 Sunrise road las vegas, NV 89108
+                                Sulaymaniyah, Salm street, Salm mall
                             </li>
                             <li class="location">
                                 <span><i class="ri-phone-fill"></i> Phone:</span>
-                                <a href="tel:+1-(514)-312-5678">+1 (514) 312-5678</a>
+                                <a href="tel:+9647503079718">+964(0) 750 307 9718</a>
                             </li>
                             <li>
                                 <span><i class="ri-mail-fill"></i> Email:</span>
@@ -45,7 +45,18 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
+                </div>
             </div>
         </div>
     </footer>
 </template>
+
