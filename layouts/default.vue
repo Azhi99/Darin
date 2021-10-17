@@ -34,3 +34,14 @@ export default {
   }
 }
 </script>
+
+<style>
+  @font-face {
+    font-family: nrt;
+    src: url('~static/assets/fonts/NRT-Reg.ttf');
+  }
+
+  * {
+    font-family: nrt !important;
+  }
+</style>

@@ -32,64 +32,17 @@
 		<!-- End Page Title Area -->
 
 		<!-- Start Choose Area -->
-		<section class="choose-area pt-100 pb-70">
+		<section class="choose-area pt-70 pb-70">
 			<div class="container">
 				<div class="row align-items-center">
-					<div class="col-lg-6">
-						<div class="choose-img">
-							<img src="assets/images/choose-img.jpg" alt="Images">
-
-							<div class="your-of">
-								<h1>30</h1>
-								<h3>Year’s of experience in transport and logistics services</h3>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-lg-6">
+					<div class="col-12">
 						<div class="faq-accordion">
-							<h2>Why should you choose Matro transport and logistics services</h2>
-
 							<ul class="accordion">
 								<li class="accordion-item">
-									<a class="accordion-title active" href="javascript:void(0)">
-										<span class="flaticon-contract"></span>
-										Our history
-										<i class="ri-add-fill"></i>
-									</a>
-	
 									<div class="accordion-content show">
-										<p>Cosmetic surgery is a unique discipline of medicine focused on enhancing appearance through surgical and medical techniques. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam unique discipline of.</p>
-
-										<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
-									</div>
-								</li>
-
-								<li class="accordion-item">
-									<a class="accordion-title" href="javascript:void(0)">
-										<span class="flaticon-target"></span>
-										Our vision
-										<i class="ri-add-fill"></i>									
-									</a>
-	
-									<div class="accordion-content">
-										<p>Cosmetic surgery is a unique discipline of medicine focused on enhancing appearance through surgical and medical techniques. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam unique discipline of.</p>
-
-										<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
-									</div>
-								</li>
-
-								<li class="accordion-item">
-									<a class="accordion-title" href="javascript:void(0)">
-										<span class="flaticon-mission"></span>
-										Our mission
-										<i class="ri-add-fill"></i>
-									</a>
-	
-									<div class="accordion-content">
-										<p>Cosmetic surgery is a unique discipline of medicine focused on enhancing appearance through surgical and medical techniques. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam unique discipline of.</p>
-
-										<p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit</p>
+										<p style="font-size: 20px;">
+											{{ $t('aboutDetail') }}
+										</p>
 									</div>
 								</li>
 							</ul>
@@ -99,73 +52,6 @@
 			</div>
 		</section>
 		<!-- End Choose Area -->
-
-		<!-- Start Counter Area -->
-		<section class="counter-area bg-color pt-100 pb-70">
-			<div class="container">
-				<div class="counter-bg">
-					<div class="row">
-						<div class="col-lg-3 col-sm-6">
-							<div class="single-counter">
-								<i class="flaticon-new-year"></i>
-
-								<div class="count-title">
-									<h2>
-										<span class="odometer" data-count="30">00</span> 
-									</h2>
-									<h4>Number of years</h4>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-sm-6">
-							<div class="single-counter">
-								<i class="flaticon-bus"></i>
-
-								<div class="count-title">
-									<h2>
-										<span class="odometer" data-count="50">00</span> 
-										<span class="target">+</span>
-									</h2>
-									<h4>Specialist vehicles</h4>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-sm-6">
-							<div class="single-counter">
-								<i class="flaticon-package"></i>
-
-								<div class="count-title">
-									<h2>
-										<span class="odometer" data-count="30">00</span> 
-										<span class="target">K</span>
-									</h2>
-									<h4>Deliveries per year</h4>
-								</div>
-							</div>
-						</div>
-
-						<div class="col-lg-3 col-sm-6">
-							<div class="single-counter">
-								<i class="flaticon-rating"></i>
-
-								<div class="count-title">
-									<h2>
-										<span class="odometer" data-count="10">00</span> 
-										<span class="target">K</span>
-									</h2>
-									<h4>Satisfied clients</h4>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Counter Area -->
-
-		
 
 		<!-- Start Partner Area -->
 		<Partners />

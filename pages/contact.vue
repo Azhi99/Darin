@@ -133,7 +133,7 @@
 	}
 
 
-	@media screen and (min-width: 340px) and (max-width: 600px) {
+	@media screen and (min-width: 320px) and (max-width: 600px) {
 		.home .image img{
 			width:97%;
 			padding:1rem;
@@ -142,6 +142,7 @@
 		}
 		#header-part {
 			margin-top: 10px !important;
+			background-image: none !important;
 		}
 		#header-text, #header-text2 {
 			text-align: center;
