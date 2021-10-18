@@ -70,17 +70,35 @@
                     </div>
                 </div>
 
-                <!-- <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12" v-if="insta1">
                     <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12" v-if="insta2">
                     <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-12">
+                <div class="col-lg-4 col-md-4 col-sm-12" v-if="insta3">
                     <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
-                </div> -->
+                </div>
             </div>
         </div>
     </footer>
 </template>
 
+<script>
+export default {
+    data() {
+        return {
+            insta1: '',
+            insta2: '',
+            insta3: '',
+        }
+    },
+    created() {
+        this.$axios.$get('/api/insta/getAll').then((data) => {
+            this.insta1 = data[0].link;
+            this.insta2 = data[1].link;
+            this.insta3 = data[2].link;
+        })
+    }
+}
+</script>
