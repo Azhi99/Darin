@@ -64,20 +64,20 @@
                                 <span><i class="ri-mail-fill"></i> {{ $t('email') }}:</span>
                             </div>
                             <div class="col-9 py-1">
-                                <a href="mailto:hello@matro.com">hello@matro.com</a>
+                                <a href="mailto:info@daringame.com" rel="noopener noreferrer">info@daringame.com</a>
                             </div>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4 col-sm-12" v-if="insta1">
-                    <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
+                    <iframe :src="insta1" frameborder="0" width="100%" height="740px"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12" v-if="insta2">
-                    <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
+                    <iframe :src="insta2" frameborder="0" width="100%" height="740px"></iframe>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12" v-if="insta3">
-                    <iframe src="https://www.instagram.com/p/CVBBefoldpI/embed" frameborder="0" width="100%" height="740px"></iframe>
+                    <iframe :src="insta3" frameborder="0" width="100%" height="740px"></iframe>
                 </div>
             </div>
         </div>

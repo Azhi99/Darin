@@ -40,7 +40,7 @@
 							<ul class="accordion">
 								<li class="accordion-item">
 									<div class="accordion-content show">
-										<p style="font-size: 20px;">
+										<p style="font-size: 20px; text-align: justify;">
 											{{ $t('aboutDetail') }}
 										</p>
 									</div>

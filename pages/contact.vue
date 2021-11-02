@@ -36,8 +36,8 @@
 		<div class="home">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 pl-5" style="margin-top: 240px; background-image: url('/assets/images/letter.svg'); background-size: 100% 100%; background-position: right;" id="header-part">
-						<h1 id="header-text">Contact Us</h1>
+					<div class="col-lg-6 col-md-6 col-sm-12 pl-5" :style="`margin-top: 240px; ${$vuetify.rtl ? `background-image: url('/assets/images/letter-scaled.svg');` : `background-image: url('/assets/images/letter.svg');`} background-size: 100% 100%; background-position: right;`" id="header-part">
+						<h1 id="header-text"> {{ $t('contactUs') }} </h1>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
 						<div class="image">
@@ -56,7 +56,7 @@
 						<div class="single-contact-info">
 							<i class="ri-map-pin-fill"></i>
 							<div class="count-title">
-								<p>Sulaymaniyah, Salm street, Salm mall</p>
+								<p> {{ $t('addressDetail') }} </p>
 							</div>
 						</div>
 					</div>
@@ -65,9 +65,9 @@
 						<div class="single-contact-info">
 							<i class="ri-phone-fill"></i>
 
-							<div class="count-title">
-								<a href="tel:+9647503079718">+964(0) 750 307 9718</a>
-								<a href="tel:+9647701648642">+964(0) 770 164 8642</a>
+							<div class="count-title" dir="ltr">
+								<a href="tel:+9647503079718" rel="noopener noreferrer">+964(0) 750 307 9718</a>
+								<a href="tel:+9647701648642" rel="noopener noreferrer">+964(0) 770 164 8642</a>
 							</div>
 						</div>
 					</div>
@@ -76,9 +76,8 @@
 						<div class="single-contact-info">
 							<i class="ri-mail-fill"></i>
 
-							<div class="count-title">
-								<a href="mailto:info@matro.com">info@matro.com</a>
-								<a href="mailto:hello@matro.com">hello@matro.com</a>
+							<div class="count-title" style="height: 120px;">
+								<a href="mailto:info@daringame.com" style="font-size: 20px;" rel="noopener noreferrer">info@daringame.com</a>
 							</div>
 						</div>
 					</div>
@@ -93,12 +92,14 @@
 		</div>
 		<!-- End Map Area -->
 
+		<Partners />
+
 		<!-- Start Footer Area -->
 		<FooterArea />
 		<!-- End Footer Area -->
 
 		<!-- Start Copy Right Area -->
-		<Partners />
+		
 		<!-- End Copy Right Area -->
 		
 		<!-- Start Go Top Area -->

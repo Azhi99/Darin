@@ -16,7 +16,7 @@ export default {
     components: {
         Navbar
     },
-    middleware: 'clearExternalJS',
+    middleware: ['clearExternalJS', 'auth'],
     data() {
         return {
             loadings: {

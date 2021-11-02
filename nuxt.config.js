@@ -1,8 +1,6 @@
-import colors from 'vuetify/es5/util/colors'
-import en from './locales/en.json'
-import ku from './locales/ku.json'
+const colors = require('vuetify/es5/util/colors')
 
-export default {
+module.exports =  {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '',
@@ -10,7 +8,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: 'The Best and First Gaming Brand in Kurdistan' },
+      { name: 'keywords', content: 'darin, darin game, darin game slemani, salim street, saholaka' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
@@ -68,7 +67,8 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
-    '@nuxtjs/i18n'
+    '@nuxtjs/i18n',
+    'cookie-universal-nuxt'
   ],
   i18n: {
     locales: [
@@ -97,17 +97,19 @@ export default {
       dark: false,
       themes: {
         dark: {
-          primary: colors.blue.darken2,
-          accent: colors.grey.darken3,
-          secondary: colors.amber.darken3,
-          info: colors.teal.lighten1,
-          warning: colors.amber.base,
-          error: colors.deepOrange.accent4,
-          success: colors.green.accent3
+          // primary: colors.blue.darken2,
+          // accent: colors.grey.darken3,
+          // secondary: colors.amber.darken3,
+          // info: colors.teal.lighten1,
+          // warning: colors.amber.base,
+          // error: colors.deepOrange.accent4,
+          // success: colors.green.accent3
         }
       }
     }
   },
+
+  
 
   serverMiddleware: {
     '/api': '~/api'
@@ -117,7 +119,4 @@ export default {
   build: {
     extend(config, ctx) {}
   },
-  server: {
-    host: '0.0.0.0'
-  }
 }

@@ -37,9 +37,9 @@
 		<div class="home">
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-lg-6 col-md-6 col-sm-12 pl-5" style="margin-top: 240px;" id="header-part">
+					<div class="col-lg-6 col-md-6 col-sm-12 pl-5" style="margin-top: 230px;" id="header-part">
 						<h1 id="header-text"> {{ $t('headTitle') }} </h1>
-						<h3 id="header-text2"> {{ $t('razerDistributor') }} </h3>
+						<h5 id="header-text2"> {{ $t('razerDistributor') }} </h5>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
 						<div class="image" style="margin-left: 100px;">

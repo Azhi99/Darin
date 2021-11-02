@@ -5,7 +5,7 @@
                 <v-list-item link>
                 <v-list-item-content>
                     <v-list-item-title class="text-h6">
-                    Darin
+                    Darin <v-btn color="error" icon @click="logout()"> <v-icon> mdi-logout </v-icon> </v-btn>
                     </v-list-item-title>
                 </v-list-item-content>
                 </v-list-item>
@@ -25,3 +25,15 @@
     </nav>
     
 </template>
+
+<script>
+    export default {
+        methods: {
+            logout() {
+                this.$cookies.remove('darinToken');
+                this.$axios.defaults.headers.common['Authorization'] = null;
+                location.href = '/';
+            }
+        }
+    }
+</script>
