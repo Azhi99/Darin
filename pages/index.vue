@@ -38,11 +38,11 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 pl-5" style="margin-top: 230px;" id="header-part">
-						<h1 id="header-text"> {{ $t('headTitle') }} </h1>
-						<h5 id="header-text2"> {{ $t('razerDistributor') }} </h5>
+						<h1 id="header-text" :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`"> {{ $t('headTitle') }} </h1>
+						<h5 id="header-text2" :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`"> {{ $t('razerDistributor') }} </h5>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
-						<div class="image" style="margin-left: 100px;">
+						<div class="image" :style="`margin-${$vuetify.rtl ? 'right' : 'left'}: 100px;`">
 							<img src="assets/images/game.svg" alt="">
 						</div>
 					</div>
@@ -55,7 +55,7 @@
 		<section class="success-area bg-color pt-70 pb-70">
 			<div class="container">
 				<div class="section-title">
-					<h2> {{ $t('bestGameNeed') }} </h2>
+					<h2 :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`"> {{ $t('bestGameNeed') }} </h2>
 					<p> {{ $t('delivery') }} </p>
 				</div>
 			</div>

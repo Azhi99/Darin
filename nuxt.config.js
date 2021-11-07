@@ -10,6 +10,11 @@ module.exports =  {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'The Best and First Gaming Brand in Kurdistan' },
       { name: 'keywords', content: 'darin, darin game, darin game slemani, salim street, saholaka' },
+      { name: 'og:type', content: 'website' },
+      { name: 'og:url', content: 'https://daringame.com' },
+      { name: 'og:title', content: 'Darin' },
+      { name: 'og:description', content: 'The Best and First Gaming Brand in Kurdistan' },
+      { name: 'og:image', content: '/logo darin.png' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [

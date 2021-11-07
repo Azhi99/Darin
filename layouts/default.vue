@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`">
     <Nuxt />
   </v-app>
 </template>
@@ -38,10 +38,9 @@ export default {
 <style>
   @font-face {
     font-family: nrt;
-    src: url('~static/assets/fonts/NRT-Reg.ttf');
+    src: url('~/static/assets/fonts/NRT-Reg.ttf');
   }
 
-  * {
-    font-family: nrt !important;
-  }
+  
+
 </style>
