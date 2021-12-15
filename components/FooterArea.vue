@@ -1,5 +1,5 @@
 <template>
-    <footer class="footer-area bg-color pt-100 pb-70">
+    <footer class="footer-area bg-color pt-70 pb-70">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-6">
@@ -27,7 +27,7 @@
 
                 <div class="col-lg-6 col-md-6">
                     <div class="single-footer-widget">
-                        <h3> {{ $t('getInTouch') }} </h3>
+                        <h3 :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`"> {{ $t('getInTouch') }} </h3>
 
                         <!-- <ul class="address">
                             <li>

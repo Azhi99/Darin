@@ -10,8 +10,10 @@ app.use(express.json())
 app.use(express.urlencoded({ extended: true }))
 
 const instaRoute = require('./routes/insta'); 
+const itemRoute = require('./routes/items'); 
 
 app.use('/insta', instaRoute);
+app.use('/item', itemRoute);
 
 app.post('/login', async (req, res) => {
     try {

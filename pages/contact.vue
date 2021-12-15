@@ -37,7 +37,7 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-lg-6 col-md-6 col-sm-12 pl-5" :style="`margin-top: 240px; ${$vuetify.rtl ? `background-image: url('/assets/images/letter-scaled.svg');` : `background-image: url('/assets/images/letter.svg');`} background-size: 100% 100%; background-position: right;`" id="header-part">
-						<h1 id="header-text"> {{ $t('contactUs') }} </h1>
+						<h1 id="header-text" :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`"> {{ $t('contactUs') }} </h1>
 					</div>
 					<div class="col-lg-6 col-md-6 col-sm-12">
 						<div class="image">
@@ -56,7 +56,7 @@
 						<div class="single-contact-info">
 							<i class="ri-map-pin-fill"></i>
 							<div class="count-title">
-								<p> {{ $t('addressDetail') }} </p>
+								<p :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`"> {{ $t('addressDetail') }} </p>
 							</div>
 						</div>
 					</div>

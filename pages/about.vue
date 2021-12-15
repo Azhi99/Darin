@@ -16,7 +16,7 @@
 		<div class="page-title-area" style="padding-top: 220px;">
 			<div class="container">
 				<div class="page-title-content">
-					<h2> {{ $t('about') }} </h2>
+					<h2 :style="`font-family: ${$vuetify.rtl ? 'nrt !important' : ''}`"> {{ $t('about') }} </h2>
 
 					
 				</div>
@@ -40,7 +40,7 @@
 							<ul class="accordion">
 								<li class="accordion-item">
 									<div class="accordion-content show">
-										<p style="font-size: 20px; text-align: justify;">
+										<p style="font-size: 20px; text-align: justify;" >
 											{{ $t('aboutDetail') }}
 										</p>
 									</div>

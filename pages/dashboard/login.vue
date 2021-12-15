@@ -1,5 +1,5 @@
 <template>
-    <v-main class="mx-auto my-15" dir="ltr" id="main" style="display: none;">
+    <v-main class="mx-auto my-15" dir="ltr" id="main">
         <div>
             <v-alert text class="title text-center py-3" color="green"> Darin </v-alert>
             <v-card elevation="4" width="450px" class="mt-3 px-3 py-5">
@@ -25,10 +25,8 @@
             }
         },
         mounted() {
-            if(this.$route.query.darinSecret != 'eM3@6N') {
+            if(this.$route.query.darinSecret != 'eM36N') {
                 this.$router.push('/404');
-            } else {
-                document.getElementById('main').style.removeProperty('display');
             }
         },
         methods: {

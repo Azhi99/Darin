@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- Start Preloader Area -->
+    	<!-- Start Preloader Area -->
 		<div class="preloader">
 			<div class="lds-ripple">
 				<div class="pl-spark-1 pl-spark-2"></div>
