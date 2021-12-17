@@ -39,8 +39,8 @@
                         username: this.username,
                         password: this.password
                     }).then((data) => {
-                        this.$axios.defaults.headers.common['Authorization'] = 'Bearer ' + data;
                         this.$cookies.set('darinToken', 'Bearer ' + data);
+                        this.$axios.defaults.headers.common['Authorization'] = 'Bearer ' + data;
                         location.href = '/dashboard/';
                     }).catch((err) => {
                         alert(err)

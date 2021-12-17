@@ -48,6 +48,7 @@ app.post('/verifyToken', (req, res) => {
         const decoded = jwt.decode(req.headers.authorization.split('T')[1], process.env.KEY);
         res.status(200).send(decoded);
     } catch (error) {
+        console.log(error);
         res.sendStatus(500)
     }
 

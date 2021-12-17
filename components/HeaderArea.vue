@@ -100,6 +100,9 @@
                             <li class="nav-item">
                                 <a href="/contact" class="nav-link" :class="{'active': $route.fullPath == '/contact'}"> {{ $t('contact') }} </a>
                             </li>
+                            <li class="nav-item">
+                                <a href="/products" class="nav-link" :class="{'active': $route.fullPath == '/products'}"> {{ $t('products') }} </a>
+                            </li>
                         </ul>
 
                         <div class="others-options">
