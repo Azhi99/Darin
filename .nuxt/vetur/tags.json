@@ -1,0 +1,17 @@
+{
+  "Copyright": {
+    "description": "Auto imported from components/Copyright.vue"
+  },
+  "FooterArea": {
+    "description": "Auto imported from components/FooterArea.vue"
+  },
+  "HeaderArea": {
+    "description": "Auto imported from components/HeaderArea.vue"
+  },
+  "Partners": {
+    "description": "Auto imported from components/Partners.vue"
+  },
+  "DashboardNavbar": {
+    "description": "Auto imported from components/dashboard/Navbar.vue"
+  }
+}
