@@ -1,8 +1,8 @@
-export { default as Copyright } from '../..\\components\\Copyright.vue'
-export { default as FooterArea } from '../..\\components\\FooterArea.vue'
-export { default as HeaderArea } from '../..\\components\\HeaderArea.vue'
-export { default as Partners } from '../..\\components\\Partners.vue'
-export { default as DashboardNavbar } from '../..\\components\\dashboard\\Navbar.vue'
+export const Copyright = () => import('../..\\components\\Copyright.vue' /* webpackChunkName: "components/copyright" */).then(c => wrapFunctional(c.default || c))
+export const FooterArea = () => import('../..\\components\\FooterArea.vue' /* webpackChunkName: "components/footer-area" */).then(c => wrapFunctional(c.default || c))
+export const HeaderArea = () => import('../..\\components\\HeaderArea.vue' /* webpackChunkName: "components/header-area" */).then(c => wrapFunctional(c.default || c))
+export const Partners = () => import('../..\\components\\Partners.vue' /* webpackChunkName: "components/partners" */).then(c => wrapFunctional(c.default || c))
+export const DashboardNavbar = () => import('../..\\components\\dashboard\\Navbar.vue' /* webpackChunkName: "components/dashboard-navbar" */).then(c => wrapFunctional(c.default || c))
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

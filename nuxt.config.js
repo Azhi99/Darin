@@ -86,7 +86,9 @@ module.exports =  {
 
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL: 'https://daringame.com'
+  },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
