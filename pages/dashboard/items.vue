@@ -276,7 +276,7 @@ export default {
         itemsHeader() {
             return [
                 { text: '#', align: 'center', sortable: false },
-                { text: 'Item Name', align: 'center', sortable: false },
+                { text: 'Item Name', align: 'center', value: "itemName", sortable: false },
                 { text: 'Category', align: 'center', sortable: false },
                 { text: 'Price', align: 'center', sortable: false },
                 { text: 'Actions', align: 'center', sortable: false },

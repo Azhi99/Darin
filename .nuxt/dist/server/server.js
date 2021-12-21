@@ -4092,21 +4092,21 @@ function shouldScrollToTop(route) {
 
 
 
-const _4c7a9e0a = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 6).then(__webpack_require__.bind(null, 241)));
+const _4c7a9e0a = () => interopDefault(__webpack_require__.e(/* import() | pages/404 */ 6).then(__webpack_require__.bind(null, 244)));
 
-const _77d83a10 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 7).then(__webpack_require__.bind(null, 237)));
+const _77d83a10 = () => interopDefault(__webpack_require__.e(/* import() | pages/about */ 7).then(__webpack_require__.bind(null, 240)));
 
-const _35a26b3a = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 8).then(__webpack_require__.bind(null, 238)));
+const _35a26b3a = () => interopDefault(__webpack_require__.e(/* import() | pages/contact */ 8).then(__webpack_require__.bind(null, 241)));
 
-const _0506648b = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard/index */ 9).then(__webpack_require__.bind(null, 239)));
+const _0506648b = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard/index */ 9).then(__webpack_require__.bind(null, 242)));
 
-const _d0dfd656 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 12).then(__webpack_require__.bind(null, 240)));
+const _d0dfd656 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 12).then(__webpack_require__.bind(null, 243)));
 
-const _96b8b89e = () => interopDefault(__webpack_require__.e(/* import() | pages/products */ 13).then(__webpack_require__.bind(null, 236)));
+const _96b8b89e = () => interopDefault(__webpack_require__.e(/* import() | pages/products */ 13).then(__webpack_require__.bind(null, 238)));
 
-const _92d8070e = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard/items */ 10).then(__webpack_require__.bind(null, 234)));
+const _92d8070e = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard/items */ 10).then(__webpack_require__.bind(null, 237)));
 
-const _62a3f0bc = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard/login */ 11).then(__webpack_require__.bind(null, 235)));
+const _62a3f0bc = () => interopDefault(__webpack_require__.e(/* import() | pages/dashboard/login */ 11).then(__webpack_require__.bind(null, 239)));
 
 const emptyFn = () => {};
 
@@ -5011,7 +5011,7 @@ const Copyright = () => __webpack_require__.e(/* import() | components/copyright
 const FooterArea = () => __webpack_require__.e(/* import() | components/footer-area */ 3).then(__webpack_require__.bind(null, 124)).then(c => wrapFunctional(c.default || c));
 const HeaderArea = () => __webpack_require__.e(/* import() | components/header-area */ 4).then(__webpack_require__.bind(null, 123)).then(c => wrapFunctional(c.default || c));
 const Partners = () => __webpack_require__.e(/* import() | components/partners */ 5).then(__webpack_require__.bind(null, 159)).then(c => wrapFunctional(c.default || c));
-const DashboardNavbar = () => __webpack_require__.e(/* import() | components/dashboard-navbar */ 2).then(__webpack_require__.bind(null, 181)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
+const DashboardNavbar = () => __webpack_require__.e(/* import() | components/dashboard-navbar */ 2).then(__webpack_require__.bind(null, 182)).then(c => wrapFunctional(c.default || c)); // nuxt/nuxt.js#8607
 
 function wrapFunctional(options) {
   if (!options || !options.functional) {

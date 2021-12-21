@@ -16,7 +16,7 @@
 			<v-progress-circular indeterminate color="primary"></v-progress-circular>
 		</div>
         <v-container fluid style="margin-top: 150px; margin-bottom: 20px;" v-else>
-			<v-select label="Category" dense append-icon="mdi-filter" class="mt-2" clearable :items="categories" item-text="categoryName" item-value="categoryID" v-model="categoryID"></v-select>
+			<v-autocomplete label="Category" dense append-icon="mdi-filter" class="mt-2" clearable :items="categories" item-text="categoryName" item-value="categoryID" v-model="categoryID" @submit.prevent></v-autocomplete>
 			<div v-if="items.length == 0" class="mx-auto py-10 text-center">
 				<span class="grey--text"> No items found </span>
 			</div>
@@ -85,11 +85,13 @@
 			}
 		},
 		watch: {
-			categoryID() {
-				if(this.page == 1) {
-					this.getData();
-				} else {
-					this.page = 1;
+			categoryID(value) {
+				if(value) {
+					if(this.page == 1) {
+						this.getData();
+					} else {
+						this.page = 1;
+					}
 				}
 			},
 			page() {
