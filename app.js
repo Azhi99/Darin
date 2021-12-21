@@ -1,4 +1,5 @@
 const express = require('express');
+const path = require('path');
 const {Nuxt, Builder} = require('nuxt');
 const app = express();
 

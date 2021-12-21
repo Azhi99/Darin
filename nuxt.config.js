@@ -73,8 +73,25 @@ module.exports =  {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/i18n',
-    'cookie-universal-nuxt'
+    'cookie-universal-nuxt',
+    '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://daringame.com',
+    exclude: [
+      '/dashboard'
+    ],
+    routes: [
+      '/',
+      '/about',
+      '/contact',
+      {
+        url: '/products',
+        changefreq: 'daily',
+        priority: 1
+      }
+    ]
+  },
   i18n: {
     locales: [
       { code: 'en', file: 'en.json' },

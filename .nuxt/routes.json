@@ -4,6 +4,7 @@
     "path": "/404",
     "component": "E:\\\\Darin\\\\pages\\\\404.vue",
     "chunkName": "pages/404",
+    "url": "/404",
     "_name": "_4c7a9e0a"
   },
   {
@@ -11,6 +12,7 @@
     "path": "/about",
     "component": "E:\\\\Darin\\\\pages\\\\about.vue",
     "chunkName": "pages/about",
+    "url": "/about",
     "_name": "_77d83a10"
   },
   {
@@ -18,6 +20,7 @@
     "path": "/contact",
     "component": "E:\\\\Darin\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
+    "url": "/contact",
     "_name": "_35a26b3a"
   },
   {
@@ -25,6 +28,7 @@
     "path": "/dashboard",
     "component": "E:\\\\Darin\\\\pages\\\\dashboard\\\\index.vue",
     "chunkName": "pages/dashboard/index",
+    "url": "/dashboard",
     "_name": "_0506648b"
   },
   {
@@ -32,6 +36,7 @@
     "path": "/ku",
     "component": "E:\\\\Darin\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
+    "url": "/ku",
     "_name": "_d0dfd656"
   },
   {
@@ -39,6 +44,7 @@
     "path": "/products",
     "component": "E:\\\\Darin\\\\pages\\\\products.vue",
     "chunkName": "pages/products",
+    "url": "/products",
     "_name": "_96b8b89e"
   },
   {
@@ -46,6 +52,7 @@
     "path": "/dashboard/items",
     "component": "E:\\\\Darin\\\\pages\\\\dashboard\\\\items.vue",
     "chunkName": "pages/dashboard/items",
+    "url": "/dashboard/items",
     "_name": "_92d8070e"
   },
   {
@@ -53,6 +60,7 @@
     "path": "/dashboard/login",
     "component": "E:\\\\Darin\\\\pages\\\\dashboard\\\\login.vue",
     "chunkName": "pages/dashboard/login",
+    "url": "/dashboard/login",
     "_name": "_62a3f0bc"
   },
   {
@@ -60,6 +68,7 @@
     "path": "/ku/404",
     "component": "E:\\\\Darin\\\\pages\\\\404.vue",
     "chunkName": "pages/404",
+    "url": "/ku/404",
     "_name": "_4c7a9e0a"
   },
   {
@@ -67,6 +76,7 @@
     "path": "/ku/about",
     "component": "E:\\\\Darin\\\\pages\\\\about.vue",
     "chunkName": "pages/about",
+    "url": "/ku/about",
     "_name": "_77d83a10"
   },
   {
@@ -74,6 +84,7 @@
     "path": "/ku/contact",
     "component": "E:\\\\Darin\\\\pages\\\\contact.vue",
     "chunkName": "pages/contact",
+    "url": "/ku/contact",
     "_name": "_35a26b3a"
   },
   {
@@ -81,6 +92,7 @@
     "path": "/ku/dashboard",
     "component": "E:\\\\Darin\\\\pages\\\\dashboard\\\\index.vue",
     "chunkName": "pages/dashboard/index",
+    "url": "/ku/dashboard",
     "_name": "_0506648b"
   },
   {
@@ -88,6 +100,7 @@
     "path": "/ku/products",
     "component": "E:\\\\Darin\\\\pages\\\\products.vue",
     "chunkName": "pages/products",
+    "url": "/ku/products",
     "_name": "_96b8b89e"
   },
   {
@@ -95,6 +108,7 @@
     "path": "/ku/dashboard/items",
     "component": "E:\\\\Darin\\\\pages\\\\dashboard\\\\items.vue",
     "chunkName": "pages/dashboard/items",
+    "url": "/ku/dashboard/items",
     "_name": "_92d8070e"
   },
   {
@@ -102,6 +116,7 @@
     "path": "/ku/dashboard/login",
     "component": "E:\\\\Darin\\\\pages\\\\dashboard\\\\login.vue",
     "chunkName": "pages/dashboard/login",
+    "url": "/ku/dashboard/login",
     "_name": "_62a3f0bc"
   },
   {
@@ -109,6 +124,7 @@
     "path": "/",
     "component": "E:\\\\Darin\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
+    "url": "/",
     "_name": "_d0dfd656"
   }
 ]

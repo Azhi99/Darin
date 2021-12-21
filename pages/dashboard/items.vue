@@ -69,9 +69,13 @@
                         </v-card>
                     </v-dialog>
                 </v-col>
+                <v-spacer></v-spacer>
+                <v-col cols="12" md="4" lg="3" xl="2">
+                    <v-text-field label="Search..." outlined dense v-model="search"></v-text-field>
+                </v-col>
             </v-row>
             <v-divider class="my-1 mt-3"></v-divider>
-            <v-data-table :headers="itemsHeader" :items="items" class="text-center" :footer-props="{'items-per-page-options': [15, 20, 25, 30]}">
+            <v-data-table :headers="itemsHeader" :items="items" class="text-center" :search="search" :footer-props="{'items-per-page-options': [15, 20, 25, 30]}">
                 <template v-slot:item="{item, index}">
                     <tr>
                         <td> {{ index + 1 }} </td>
@@ -122,7 +126,8 @@ export default {
             singleCategory: {
                 categoryID: null,
                 categoryName: null
-            }
+            },
+            search: ''
         }
     },
     created() {
